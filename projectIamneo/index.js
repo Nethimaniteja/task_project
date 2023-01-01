@@ -36,7 +36,7 @@ function deletetodo(todoId) {
     let deleteItemIndex = todolist.findIndex(function(eachtodo) {
         let eachtodoId = "todo" + eachtodo.uniqueNo;
         if (todoId === eachtodoId) {
-            return todoId === eachtodoId;
+            return true;
         }
     });
 
