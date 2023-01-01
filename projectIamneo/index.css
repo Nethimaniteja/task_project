@@ -2,7 +2,7 @@
 .todos-heading {
     /* d */
     text-align: center;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 40px;
     font-weight: 500;
     margin-top: 20px;
@@ -11,7 +11,7 @@
 
 .create-task-heading {
     /* d */
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 32px;
     font-weight: 700;
 }
