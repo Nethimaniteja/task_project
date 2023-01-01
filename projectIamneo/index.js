@@ -37,8 +37,6 @@ function deletetodo(todoId) {
         let eachtodoId = "todo" + eachtodo.uniqueNo;
         if (todoId === eachtodoId) {
             return true;
-        } else {
-            return false;
         }
     });
 
@@ -51,8 +49,6 @@ function changeTitle(changedTitlevalue, todoId) {
         let eachtodoId = "todo" + eachtodo.uniqueNo;
         if (todoId === eachtodoId) {
             return true;
-        } else {
-            return false;
         }
     });
 
@@ -65,9 +61,7 @@ function changeText(changeTextValue, todoId) {
         let eachtodoId = "todo" + eachtodo.uniqueNo;
         if (todoId === eachtodoId) {
             return true;
-        } else {
-            return false;
-        }
+        } 
     });
 
     todolist[changeTextIndex].text = changeTextValue;
@@ -129,7 +123,7 @@ addTodoButton.addEventListener("click", function() {
     let titleValue = todoUsertitle.value;
     let textVlaue = todousertext.value;
 
-    if (titleValue === "" & textVlaue === "") {
+    if (titleValue === "" && textVlaue === "") {
         alert("Enter Vaild Input");
         return;
     }
