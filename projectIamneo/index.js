@@ -43,6 +43,7 @@ function deletetodo(todoId) {
     });
 
     todolist.splice(deleteItemIndex, 1);
+    localStorage.setItem("mani", JSON.stringify(todolist));
 }
 
 function changeTitle(changedTitlevalue, todoId) {
