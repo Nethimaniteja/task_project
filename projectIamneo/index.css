@@ -1,8 +1,6 @@
 
 .todos-heading {
-    /* d */
     text-align: center;
-    font-family: Roboto;
     font-size: 40px;
     font-weight: 500;
     margin-top: 20px;
@@ -10,41 +8,31 @@
 }
 
 .create-task-heading {
-    /* d */
-    font-family: Roboto;
     font-size: 32px;
     font-weight: 700;
 }
 
 .create-task-heading-subpart {
-    /* d */
-    font-family: "Roboto";
     font-size: 32px;
     font-weight: 500;
 }
 
 .todo-items-heading {
-    /* d */
-    font-family: "Roboto";
     font-size: 32px;
     font-weight: 700;
 }
 
 .todo-items-heading-subpart {
-    /* d */
-    font-family: "Roboto";
     font-size: 32px;
     font-weight: 500;
 }
 
 .todo-items-container {
-    /* d */
     margin: 0px;
     padding: 0px;
 }
 
 .todo-item-container {
-    /* d */
     list-style-type: none;
     margin-top: 15px;
     background-color: #e6f6ff;
@@ -59,7 +47,6 @@
 }
 
 .todo-user-input {
-    /* d */
     background-color: white;
     width: 100%;
     border-radius: 10px;
@@ -69,10 +56,8 @@
 }
 
 .button {
-    /* d */
     color: white;
     background-color: #4c63b6;
-    font-family: "Roboto";
     font-size: 18px;
     border-width: 0px;
     border-radius: 4px;
@@ -89,7 +74,6 @@
 .todo-saved-title {
     background-color: transparent;
     font-size: 20px;
-    font-family: "Roboto";
     font-weight: 500;
     padding: 8px;
     margin-bottom: 0px;
