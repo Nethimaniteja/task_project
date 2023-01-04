@@ -25,9 +25,7 @@ if (todolist.length === 0) {
 }
 
 
-saveTodoButton.onclick = function() {
-    localStorage.setItem("mani", JSON.stringify(todolist));
-};
+
 
 function deletetodo(todoId) {
     let todoEl = document.getElementById(todoId);
@@ -53,7 +51,7 @@ function changeTitle(changedTitlevalue, todoId) {
     });
 
     todolist[changetitleIndex].title = changedTitlevalue;
-
+    localStorage.setItem("mani", JSON.stringify(todolist));
 }
 
 function changeText(changeTextValue, todoId) {
@@ -65,6 +63,7 @@ function changeText(changeTextValue, todoId) {
     });
 
     todolist[changeTextIndex].text = changeTextValue;
+    localStorage.setItem("mani", JSON.stringify(todolist));
 }
 
 
@@ -140,4 +139,5 @@ addTodoButton.addEventListener("click", function() {
     createTodoElement(new_todo);
     todoUsertitle.value = "";
     todousertext.value = "";
+    localStorage.setItem("mani", JSON.stringify(todolist));
 })
